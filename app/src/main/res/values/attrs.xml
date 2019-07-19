@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--组合式控件搜索框 自定义属性-->
+    <declare-styleable name="SearchView">
+        <!--输入框字体尺寸-->
+        <attr name="contentSize" format="dimension" />
+        <!--输入框字体颜色-->
+        <attr name="contentColor" format="color" />
+    </declare-styleable>
+
+    <!--流式布局 自定义属性-->
+    <declare-styleable name="FlowLayout">
+        <!--每个条目的边距-->
+        <attr name="space" format="dimension"></attr>
+        <!--自定义 条目背景颜色-->
+        <attr name="bgColor" format="color"></attr>
+        <!--自定义  条目文字颜色-->
+        <attr name="text_Color" format="color"></attr>
+    </declare-styleable>
+
+</resources>
